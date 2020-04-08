@@ -1,0 +1,426 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: SourceSansPro-Light;
+	src: url("SourceSansPro-Light.otf")
+}
+@font-face{
+	font-family: SourceSansPro-bold;
+	src: url("sourcesanspro-bold-webfont.ttf");
+}
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*body*/
+.big-article{
+	margin-top: 5%;
+	margin-left: 10%;
+	width: 80%;
+	display: block;
+
+}
+.big-article h2{
+	border-bottom: 0.5px solid black;
+	color: black;
+	font-family: sourcesanspro-bold;
+	padding: 10px;
+	margin-bottom: 15px;
+	font-size: medium;
+	width: 250px;
+	cursor:default;
+}
+
+
+
+.article h3{
+	letter-spacing: 5px;
+	font-family: SourceSansPro-bold;
+}
+
+.documentation{
+
+	z-index: 200;
+}
+
+
+
+
+.last{
+		font-family: SourceSansPro-bold;
+
+}
+
+
+
+hr{
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 0;
+	height: 200px;
+	background-color: dimgray;
+}
+
+
+
+.ot{
+	float: left;
+}
+
+
+
+/*Slider*/
+.slider2{
+	position: relative;
+	height: 50%;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 30%;
+	overflow: hidden;
+}
+.slider{
+	margin-top: 42px;
+	overflow: hidden;
+	height: 600px;
+	box-shadow: 0px 3px 20px #888;
+}
+.slider figure div{
+	width:20%;
+	float: left;
+}
+.slider figure img{
+	width: 100%;
+	float: left;
+}
+.slider figure{
+	position: relative;
+	width: 500%;
+	left: 0;
+	margin: 0;
+	animation: 20s slidy infinite;
+}
+.big-article p{
+	color: white;
+}
+/*
+@keyframes slidy{
+	0%{
+		left:0%;
+	}
+	10%{
+		left:0%;
+	}
+	12%{
+		left:-100%;
+	}
+	22%{
+		left: -100%;
+	}
+	24%{
+		left: -200%;
+	}
+	34%{
+		left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+		left: -300%;
+	}
+	48%{
+		left: -400%;
+	}
+	58%{
+		left: -400%;
+	}
+	60%{
+		left: -300%;
+	}
+	70%{
+		left: -300%;
+	}
+	72%{
+		left: -200%;
+	}
+	82%{
+		left: -200%;
+	}
+	84%{
+		left: -100%;
+	}
+	94%{
+		left: -100%;
+	}
+	96%{
+		left: 0%;
+	}
+
+
+}
+
+
+
+
+.ee{
+	background-color: goldenrod;
+	width: 100%;
+	height: 300px;
+}
+
+
+
+
+.facebook{
+	margin-top: 10px;
+	margin-right: 10px
+}
+
+
+
+*/
+
+
+
+
+
+
+
+
+.table{
+	border-bottom: 0.5px solid black;
+	width: 70%;
+	margin-left: 15%;
+}
+
+
+
+
+
+
+.content{
+	background-position: center;
+	width: 100%;
+	margin-left: 0%
+}
+
+.article{
+	color: white;
+	overflow: hidden;
+	height: 500px;
+	margin-top: 5%;
+}
+.article h1{
+	font-family: SourceSansPro-bold;
+	padding-top: 10%;
+	letter-spacing: 15px;
+	border-bottom: solid 1px white;
+	width: 60%;
+	margin-left: 20%
+}
+.article:hover{
+	box-shadow: 0px 0px 30px #888;
+	cursor:pointer;
+
+}
+#maison{
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.0),
+      rgba(0, 0, 0, 0.50)),url("assets/img/apartment-books-chairs-2079246.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	transition: 1s ease all;
+}
+.vente{
+	background-color: rgba(44,44,44,0.1);
+	float: left;
+	width: 50%;
+	margin-top: 5%;
+	letter-spacing: 10px;
+	font-family: SourceSansPro-Light;
+	height: 100%;
+	transition: 1s all ease;
+}
+.vente:hover, .location:hover{
+	background-color: rgba(44,44,44,0.3);
+}
+.location{
+	background-color: rgba(44,44,44,0.1);
+	background-attachment: fixed;
+	background-position: center;
+	transition: 1s all ease;
+	float: right;
+	height: 100%;
+	width: 50%;
+	margin-top: 5%;
+	letter-spacing: 10px;
+	font-family: SourceSansPro-Light;
+	font-weight: 100;
+}
+.text{
+	padding: 5%;
+	font-weight: lighter;
+	letter-spacing: 1px;
+}
+.title{
+	margin-top: 20%;
+	padding-top: 2%;
+	border-bottom: solid 0.5 white;
+}
+
+
+
+#villa{
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.20),
+      rgba(0, 0, 0, 0.50)),url("assets/img/architecture-bicycle-broom-2155202.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	transition: 1s ease all;
+}
+#appart{
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.20),
+      rgba(0, 0, 0, 0.50)),url("assets/img/apartments-architecture-balconies-1000985.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	transition: 1s ease all;
+}
+
+
+
+
+
+
+.couverture_ap{
+	background-image:  linear-gradient(
+			rgba(0, 0, 0, 0.30),
+			rgba(0, 0, 0, 0.30)
+		), url("assets/img/appartcouv.jpg");
+}
+.couverture_ter{
+	background-image:  linear-gradient(
+			rgba(0, 0, 0, 0.30),
+			rgba(0, 0, 0, 0.30)
+		), url("assets/img/land.jpg");
+}
+.couverture_v{
+	background-image:  linear-gradient(
+			rgba(0, 0, 0, 0.30),
+			rgba(0, 0, 0, 0.30)
+		), url("assets/img/cars.jpg");
+}
+.couverture_vi{
+	background-image:  linear-gradient(
+			rgba(0, 0, 0, 0.30),
+			rgba(0, 0, 0, 0.30)
+		), url("assets/img/villa.jpg");
+}
+.couverture_m{
+	background-image:  linear-gradient(
+			rgba(0, 0, 0, 0.30),
+			rgba(0, 0, 0, 0.30)
+		), url("assets/img/houses.jpg");
+}
+.couverture_ap, .couverture_ter, .couverture_v, .couverture_vi, .couverture_m{
+	position: relative;
+	width: 100%;
+	min-height: 750px;
+	overflow: hidden;
+	 background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.couverture_ap h1, .couverture_ter h1, .couverture_v h1, .couverture_vi h1, .couverture_m h1{
+	margin-top: 300px;
+	font-family: chameron;
+	font-size: 40pt;
+	color: white
+}
+
+.description{
+	padding: 10px
+}
+
+
+
+.png{
+	position: relative;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table tr td:hover{
+	background-color: rgba(254,254,254,0.5);
+}
+.plus{
+	padding: 10px;
+	background-color: #00619A;
+	transition: all ease 1s;
+}
+.plus:hover{
+	background-color: #174f7f;
+}
+
+
+
+
+@media (min-width:834px){
+	.slidee{
+		width: 100%;
+	}
+
+}
+
+@media (max-width:833px){
+	.slidee{
+		max-width: 833px;
+  	height: auto;
+	}
+h3{
+	font-size: 10pt;
+}
+	td{
+		font-size: 9pt;
+	}
+}
+
+
+
+
+.MAIS{
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+
+
+.MAIS h2{
+	margin-top: 100px;
+	border-bottom: 0.5px solid black;
+	color: black;
+	font-family: sourcesanspro-bold;
+	padding: 10px;
+	margin-bottom: 15px;
+	font-size: medium;
+	width: 250px;
+	cursor:default;
+}
+.card{
+	display: inline-flex;
+	margin-top: 5%;
+}
